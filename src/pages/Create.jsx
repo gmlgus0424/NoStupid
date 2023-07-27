@@ -106,7 +106,7 @@ export default function Create() {
                     type='password'
                     name ='pw'
                     className='pw'
-                    {...register({
+                    {...register('pw',{
                         required: true,
                         minLength: 8
                     })} 
