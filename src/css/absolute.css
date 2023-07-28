@@ -63,6 +63,9 @@ body{
     background-color: #F79E89;
     color: white;
 }
+p{
+    color: #F60000;
+}
 .errorMessage3{
     position: absolute;
     width: 100%;
