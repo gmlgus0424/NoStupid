@@ -3,6 +3,8 @@ import {useForm} from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import React,{useState} from 'react';
 import logo from '../assets/icon/no_stupid.svg';
+import kakao from '../assets/icon/kakao.png';
+import { KAKAO_AUTH_URL } from '../api/kakaologin';
 
 const Container= styled.div`
 padding : 20px 16px 56px 16px;
@@ -93,17 +95,8 @@ font-size: 14px;
 border:0 solid black;
 
 `;
-const KakaoLoginBtn= styled.a`
-background-color: #FEE500;
-width :100%;
-margin-top : 32px
-margin-bottom: 40px;
-cursor: pointer;
-border-radius: 5px;
 
-
-`;
-
+const KakaoBtn = styled.button``;
 
 
 
@@ -158,7 +151,10 @@ const onSubmit =(data)=>{
      <LoginButton type="submit">LOGIN</LoginButton>
       
     </form>
-    <KakaoLoginBtn href={``}>카카오로그인</KakaoLoginBtn>
+  <KakaoBtn>
+  <img src={kakao} alt="kakaobutton"  a href={KAKAO_AUTH_URL}/>
+  </KakaoBtn>
+      
  
 
    
