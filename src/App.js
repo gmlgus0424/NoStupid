@@ -6,6 +6,7 @@ import Community from './pages/Community';
 //import Navbar from './components/Navbar';
 import './App.css';
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -13,7 +14,8 @@ function App() {
       <Route path='/'element={<Home/>}/>
       <Route path ='/Login' element={<Login />}/>
       <Route path ='/Community' element={<Community/>} />
-   
+    
+
     </Routes>
     </BrowserRouter>
    

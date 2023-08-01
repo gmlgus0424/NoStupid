@@ -16,6 +16,7 @@ setScreenSize();
 window.addEventListener('resize', setScreenSize);
 
 
+//공통으로 들어갈 
 
 const GlobalStyle = createGlobalStyle`
 * {

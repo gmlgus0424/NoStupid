@@ -1,22 +1,6 @@
-
-
-const KakaoLogin=()=>{
-  const CLIENT_ID=`${process.env.REACT_APP_REST_API_KEY}`;
-  const REDIRECT_URI =`${process.env.REACT_REDIRECT_URI}`;
-  const kakaoURL= `https://kauth.kakao.com/oauth/authorize?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code`
+const CLIENT_ID = process.env.REACT_APP_REST_API_KEY;
+const REDIRECT_URI = "http://localhost:3000/auth/kakao/callback";
 
 
 
-return(
-  <img
-    alt= "kakao"
-    src="../assets/icon/kakao.png"
-    onClick={()=> Window.location.href= kakaoURL}
-    
-    />
-)
-
-
-}
-
-export default KakaoLogin;
+export const KAKAO_AUTH_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code`;
