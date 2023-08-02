@@ -7,6 +7,8 @@ import logo from '../assets/icon/no_stupid.svg';
 import { KAKAO_AUTH_URL } from '../api/KakaoLogin';
 
 
+
+
 const Container= styled.div`
 padding : 20px 16px 56px 16px;
 width : 100%;
@@ -107,6 +109,8 @@ const KakaoLoginButton = styled.a`
 `;
 
 
+
+
 function Login(){
  const {register, handleSubmit ,formState:{errors}}=useForm();
   //결과값을 표시할 result로 가지고옴
@@ -158,7 +162,7 @@ const onSubmit =(data)=>{
       
     </form>
  <KakaoLoginButton href={ KAKAO_AUTH_URL }>카카오로 로그인</KakaoLoginButton>
-   
+
     </LoginArea>
     </LogoBox>
     </Container>
