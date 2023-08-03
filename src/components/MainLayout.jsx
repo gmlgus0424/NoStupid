@@ -1,16 +1,18 @@
-import StyleSheet from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 
 
 const StyledMain =styled.div`
-position: relative;
-max-width: 768px;
-height: 100vh;
-margin: 0 auto;
+width : 100%;
+max-width: 430px;
+margin : auto;
+min-height: 100vh;
+background: black;
 `;
 
-const MainLayout =({children})=>{
+function StyledMain({children }){
   return <StyledMain>{children}</StyledMain>;
-};
+}
 
 export default MainLayout;
