@@ -1,10 +1,9 @@
-import styled from 'styled-components';
 import {useForm} from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import React,{useState} from 'react';
-import logo from '../assets/icon/no_stupid.svg';
-import {createGlobalStyle} from 'styled-components';
-import { KAKAO_AUTH_URL } from '../api/KakaoLogin';
+import logo from '../../assets/icon/no_stupid.svg';
+import styled,{createGlobalStyle} from 'styled-components';
+import { KAKAO_AUTH_URL } from '../../api/KakaoLogin';
 
 
 
