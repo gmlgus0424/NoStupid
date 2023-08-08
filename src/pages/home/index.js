@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import Name from '../../components/home/Name/index'
 import {HomeLayout,ListBox,ListTitle,ListButton,ListContent,ListContainer,AddButtonBox}from './style';
-import AddButton from '../../components/AddButton'//추가버튼
-import AngleRight from '../../assets/icon/angleRight.svg';
+import AddButton from '../../components/common/AddButton/index';//추가버튼
+import {ReactComponent as AngleRight} from '../../assets/icon/AngleRight.svg';
 import CvList from '../../components/home/'//리스트 보여지는 부분
 
 const Home = () => {
