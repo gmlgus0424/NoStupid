@@ -1,43 +1,51 @@
-import {Layout} from '../../components/home/Layout'
+//import {Layout} from '../../components/home/Layout';
 import styled from 'styled-components'
 
-const HomeLayout= styled(Layout)`
-padding : 0 20px 65px;
- display : flex;
- flex- direction : column; /*세로로 정렬*/
- 
-`
-const ListBox= styled.div`
-display:flex; 
-justify-content: space-between;
-align-items: center;
-margin-bottom : 7px;
-`
-
-const ListTitle= styled.h3`
-  font-weight: 600;
-  font-size:15px;
-  line-height: 24px;
+const HomeLayout= styled.div`
 
 `
+const Header = styled.header``;
+
+
+
+const ListContainer= styled.div`
+`
+
+const TitleBox= styled.div``
+
+const Title= styled.h3``
+
 const ListButton = styled.button`
 display: flex;
 
 `
-const ListContainer= styled.div`
-`
-const ListContent= styled.li`
-`
+
+const AngleRight= styled.button``;
+
+
+
+
+const CvList= styled.li``
+
+const Cv= styled.ul``
+
+
 const AddButtonBox= styled.div`
 `
-
+const AddButton= styled.button``
 
 export{
   HomeLayout,
-  ListBox,
-  ListTitle,
+    Header,
+    
+ ListContainer,
+    TitleBox,
+    Title,
+ 
   ListButton,
-  ListContainer,
-  ListContent,
+  AngleRight,
+  CvList,
+  Cv,
   AddButtonBox,
+ AddButton
 }

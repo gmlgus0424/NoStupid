@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import styled from 'styled-components';
-import { ReactComponent as mypage } from "../assets/icon/mypage.svg";
+import { ReactComponent as mypage } from "../assets/icon/MyPage.svg";
 import { ReactComponent as community } from "../assets/icon/community.svg";
 import { ReactComponent as menu } from "../assets/icon/menu.svg";
-import { ReactComponent as cv } from "../assets/icon/cv.svg";
+import { ReactComponent as cv } from "../assets/icon/CV.svg";
 import { ReactComponent as calendar } from "../assets/icon/calendar.svg";
 
 
@@ -24,7 +24,7 @@ const Navbar=()=>{
         <StyledMyIconCommunity></StyledMyIconCommunity>
       </Link>
       <Link to={"/"}>
-        <StyledMyIconMypage></StyledMyIconMypage>
+        <StyledMyIconMyPage></StyledMyIconMyPage>
       </Link>
     </Container>
   );
@@ -46,6 +46,6 @@ align-items: center;
 
 const StyledMyIconMenu = styled(menu)``;
 const StyledMyIconCommunity = styled(community)``;
-const StyledMyIconMypage = styled(mypage)``;
+const StyledMyIconMyPage = styled(mypage)``;
 const StyledMyIconCv = styled(cv)``;
 const StyledMyIconCalendar = styled(calendar)``;

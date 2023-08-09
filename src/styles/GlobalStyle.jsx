@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import "./font/Universe.css";
+import reset from 'styled-reset'
 
 //모바일 safari에서 vh를 결정할 때 일부 ui 무시하는 버그가 있어 vh 계산 커스텀
 //(1)js에서 innerHeight에 0.01 곱하여 새로운 vh단위 구함
@@ -19,6 +20,7 @@ import "./font/Universe.css";
 //공통으로 들어갈 
 
 const GlobalStyle = createGlobalStyle`
+${reset};
 * {
   box-sizing: border-box;
   

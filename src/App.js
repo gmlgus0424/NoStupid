@@ -1,10 +1,10 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Login from './pages/signin/Login';
-import Home from './pages/home/index';
+import Home from './pages/home/Home';
 import Community from './pages/community/Community';
 //import Navbar from './components/Navbar';
 import './App.css';
-import GlobalStyle from './styles/GlobalStyle';
+//import GlobalStyle from './styles/GlobalStyle';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
    
     <BrowserRouter>
     <Routes>
-      <Route path='/Home'element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>  
       <Route path ='/Login' element={<Login />}/>
       <Route path ='/Community' element={<Community/>} />
     

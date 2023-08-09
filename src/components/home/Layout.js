@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 /* home Layout */
-const Layout= styled.div`
+export const Layout= styled.div`
     width: 100%;
     max-width: 430px;
     margin : auto;
@@ -13,5 +13,5 @@ const Layout= styled.div`
 `;
 
 
-export default Layout;
+
 
