@@ -27,25 +27,22 @@ const AngleRight= styled.button``;
 
 const CvList= styled.li``
 
-const Cv= styled.ul``
+
 
 
 const AddButtonBox= styled.div`
 `
-const AddButton= styled.button``
+
 
 export{
   HomeLayout,
-    Header,
-    
+    Header,   
  ListContainer,
     TitleBox,
     Title,
- 
   ListButton,
   AngleRight,
   CvList,
-  Cv,
   AddButtonBox,
- AddButton
+
 }

@@ -2,20 +2,20 @@ import React from 'react'
 import {
   HomeLayout,
   Header,
- 
 ListContainer,
   TitleBox,
   Title,
 ListButton,
 AngleRight,
 CvList,
-Cv,
 AddButtonBox,
-AddButton
+
 }
 from './style'
 import Name from '../../components/home/Name/index';
 import Navbar from '../../components/Navbar';
+import Cv from '../../components/home/HomeList/index';
+import AddButton  from '../../components/common/AddButton/index';
 const Home = () => {
   return (
     <>

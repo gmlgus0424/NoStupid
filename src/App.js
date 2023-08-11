@@ -5,9 +5,14 @@ import Community from './pages/community/Community';
 //import Navbar from './components/Navbar';
 import './App.css';
 //import GlobalStyle from './styles/GlobalStyle';
+//import {useState,useEffect} from 'react';
+//import axios from 'axios';
+//import setupProxy from './setupProxy';
 
 
-function App() {
+function App() {  
+
+
   return (
    
     <BrowserRouter>
