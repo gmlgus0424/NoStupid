@@ -1,9 +1,9 @@
-import Create from "./pages/Create.jsx";
+import Add from "./pages/Add.js";
 
 function App() {
   return (
     <div>
-      <Create />
+      <Add />
     </div>
   );
 }
